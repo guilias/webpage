@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+section{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+.titulo{
+    background-color: bisque;
+    border: solid indigo;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#FonteTitulo{
+    color: darkgreen;
+    font-size: xx-large;
+}
+a{
+    color: darkred;
+}
+
+.navbar{
+    background-color: lightskyblue;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+p{
+    text-align: center;
+    color: indigo;
+}
+
+.TituloTexto{
+    color: black;
+    font-weight: 1000;
+}
+
+.coisas_container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.coisa{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    text-align: center;
+    border: 8px dotted red;
+    margin-bottom: 30px;
+}
+
+tr{
+    width: 100%;
+}
+
+th, td{
+    margin: 0;
+    padding: 10px;
+    border: 1px red solid;
+    gap: 1px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.consulta{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.consulta > ul, consulta > li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-02{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
