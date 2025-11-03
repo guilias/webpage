@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="cadastra-login.css">
+    <link rel="icon" href="../../home/img/smart_toy_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png">
+
+    <!-- Fontes: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Lekton:ital,wght@0,400;0,700;1,400&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">home</a></li>
+                    <li><a href="../../home/sobre-mim.html">sobre mim</a></li>
+                    <li><a href="../../home/projetos.html">projetos</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="cadastro">
+            <div class="container">
+            <h1>Formulário de Cadastro</h1>
+            <p>Insira as informações solicitadas abaixo:</p>
+
+            <h3>Formulálio (método: get, action: /inicio)</h2>
+            <form action="/inicio" method="get">
+                <p>Nome: <input type="text" name="info"></p>
+                <input type="submit" value="Clique aqui!">  
+            </form>
+
+            <h3>Fomulário (método: post, action: /inicio)</h2>
+            <form action="/inicio" method="post">
+                <p>Data: <input type="date" name="data"></p>
+                <input type="submit" value="Clique aqui!">
+            </form>
+
+            <h3>Cadastrar usuário</h2>
+            <form method="get" action="/cadastro">
+                <p>Nome: <input type="text" name="nome"></p>
+                <p>Sobrenome: <input type="text" name="sobrenome"></p>
+                <p>Nascimento: <input type="date" name="nascimento"></p>
+                <p>Estado civil: <input type="text" name="civil"></p>
+                <input type="submit" value="Salvar">
+            </form>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>Guilherme Elias - 2025</p>
+        </footer>
+    </main>
+
+    <script src="cadastra-login.js"></script>
+</body>
+</html>

@@ -170,6 +170,7 @@ main{
     padding: 3rem;
     background-color: black;
     width: 80%;
+    max-width: 200rem;
     min-height: 100vh;
 }
 
