@@ -1,0 +1,22 @@
+{
+  "name": "webpage-server",
+  "version": "0.0.1",
+  "description": "I hope this works.",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilias/webpage.git"
+  },
+  "author": "guilias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilias/webpage/issues"
+  },
+  "homepage": "https://github.com/guilias/webpage#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
