@@ -31,8 +31,9 @@
                 <div>
 
         <% if (posts.length === 0) { %>
-          <p>Nenhum post encontrado ainda. Crie o primeiro!</p>
-        <% } else { %>
+          <p>Nenhum post encontrado ainda. Crie o primeiro!</p> <!-- Caso a quantidade de posts seja 0, exibe essa mensagem -->
+
+        <% } else { %> <!-- Caso hajam posts, exibe-os: -->
           <% posts.forEach(post => { %>
             <article class="post">
               <h3><%= post.titulo %></h3>
@@ -40,7 +41,7 @@
               <p><%= post.conteudo %></p>
               <p><i><%= new Date(post.data).toLocaleString("pt-BR") %></i></p>
               <hr>
-            </article>
+            </article> <!-- eu amo html semântico -->
           <% }) %>
         <% } %>
         
@@ -53,6 +54,5 @@
         </footer>
     </main>
 
-    <script src="cadastra-login.js"></script>
 </body>
 </html>
