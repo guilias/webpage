@@ -230,3 +230,11 @@ form{
 input[submit]{
     background-color: black;
 }
+
+.data-post{
+    font-size: 1.5rem;
+}
+
+.titulo-post{
+    text-transform: uppercase;
+}

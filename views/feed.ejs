@@ -36,10 +36,10 @@
         <% } else { %> <!-- Caso hajam posts, exibe-os: -->
           <% posts.forEach(post => { %>
             <article class="post">
-              <h3><%= post.titulo %></h3>
+              <h3 class="titulo-post"><%= post.titulo %></h3>
               <p><b><%= post.resumo %></b></p>
               <p><%= post.conteudo %></p>
-              <p><i><%= new Date(post.data).toLocaleString("pt-BR") %></i></p>
+              <p class="data-post"><i><%= new Date(post.data).toLocaleString("pt-BR") %></i></p>
               <hr>
             </article> <!-- eu amo html semântico -->
           <% }) %>
